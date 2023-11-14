@@ -38,6 +38,7 @@ background-position: 0 -100px;
     .logo {
   width: 100%;
 }
+
     .s-about-img img{
         margin: 0;
     }
@@ -1132,7 +1133,7 @@ box-shadow: 0 0 0 0;
         height: auto;
 }
      .logo img{
-        width: 185px;
+        width: 100px;
     }
 
     .testimonial-active .slick-arrow,.home-blog-active .slick-arrow, .home-blog-active2 .slick-arrow{
@@ -1528,7 +1529,7 @@ margin: -120px -150px 100px;
     width: 94%;
 }
     .logo img{
-        width: 50%;
+        width: 100px;
     }
     .counter-area .single-counter {
   border-right: none;

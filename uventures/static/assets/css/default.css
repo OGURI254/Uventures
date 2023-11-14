@@ -1,4 +1,10 @@
 /* Deafult Margin & Padding */
+
+:root{
+  --screen-bg:#222327;
+  --screen-fg:#e2e2e2ce;
+  --screen-red:#dd630c;
+}
 /*-- Margin Top --*/
 .mt-5 {
 	margin-top: 5px;
@@ -439,7 +445,7 @@
 	padding-bottom: 115px;
 }
 .pb-120 {
-	padding-bottom: 120px;
+	padding-bottom: 20px;
 }
 .pb-125 {
 	padding-bottom: 125px;
@@ -815,7 +821,7 @@ a {
     background: #fff;
     display: inline-block;
     line-height: 40px;
-    color: #df2919;
+    color: var(--screen-red);
 }
 .flip-card-back .social a:hover {
     background: #001659;

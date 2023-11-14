@@ -36,7 +36,7 @@ a.meanmenu-reveal {
 	position: absolute;
 	right: 0;
 	text-decoration: none;
-	top: 0;
+	top: -20px;
 	width: 22px;
 }
 .mean-container a.meanmenu-reveal span {
