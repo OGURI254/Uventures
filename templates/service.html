@@ -1,0 +1,593 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Striding Ventures Limited </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/logo/backgroundless.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+        <link rel="stylesheet" href="/static/assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="/static/assets/fontawesome/css/all.min.css">
+        
+        <link rel="stylesheet" href="/static/assets/css/dripicons.css">
+        <link rel="stylesheet" href="/static/assets/css/slick.css">
+        <link rel="stylesheet" href="/static/assets/css/meanmenu.css">
+        <link rel="stylesheet" href="/static/assets/css/default.css">
+        <link rel="stylesheet" href="/static/assets/css/style.css">
+        <link rel="stylesheet" href="/static/assets/css/responsive.css">
+    </head>
+    <body class="dark">
+         <!-- header -->
+        <header class="header-area header">  
+			  <div id="header-sticky" class="menu-area pl-100 pr-100">
+                <div class="container-fluid">
+                    <div class="second-menu">
+                        <div class="row align-items-center">
+                             <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/no-bg-logo.png" alt="logo"></a>
+                                </div>
+                            </div>
+                           <div class="col-xl-4 col-lg-4 col-md-6">
+                              
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                          <ul>
+                                            <li class="has-sub">
+                                                <a href="{% url 'index' %}">Home</a>
+                                            </li>
+                                            <li><a href="{% url 'about' %}">About Us</a></li>   
+                                            <li><a href="{% url 'service' %}">Marketing Solutions</a></li>    
+											</li>
+                                            <li><a href="{% url 'contact' %}">Contact</a></li>                                               
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>   
+                             <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block text-right text-xl-right">
+                                 <div class="header-cta">
+                                    <ul>
+                                        <li>
+                                          <div class="call-box">                                            
+                                             <div class="text">
+                                             Phone: +254 700 892 927<br> Email: Info@stridingventures.com             
+                                             </div>
+                                          </div>
+                                       </li>
+                                        <li>
+                                            <div class="call-box">                          
+                                            <a href="#" class="menu-tigger"><img src="/static/assets/img/bg/toggle-menu.png" alt="logo"></a>
+                                            </div>
+                                        </li>
+                                      
+                                    </ul>
+                                 </div>                              
+                            </div>
+                            
+                                <div class="col-12">
+                                    <div class="mobile-menu"></div>
+                                </div>
+                        </div>                   
+                        </div>                   
+                </div>
+            </div>
+        </header>
+        <!-- header-end -->
+       <!-- offcanvas-area -->
+          <div class="offcanvas-menu">
+             <span class="menu-close"><i class="fas fa-times"></i></span>
+             <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
+                <input type="text" name="s" id="search" placeholder="Search"/>
+                <button><i class="fa fa-search"></i></button>
+             </form>
+             <div id="cssmenu3" class="menu-one-page-menu-container">
+                <ul  class="menu">
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'index' %}">Home</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'about' %}">About Us</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'service' %}">Marketing Solutions</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+             </div>
+             <div id="cssmenu2" class="menu-one-page-menu-container">
+                <ul id="menu-one-page-menu-12" class="menu">
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+254 700 892 927</span></a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#howitwork"><span>info@stridingventures.com</span></a></li>
+                </ul>
+             </div>
+          </div>
+          <div class="offcanvas-overly"></div>
+          <!-- offcanvas-end -->
+        <!-- main-area -->
+        <main>
+            
+            <!-- breadcrumb-area -->
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="breadcrumb-wrap text-center">
+                                <div class="breadcrumb-title">
+                                    <h2>Marketing Solutions</h2>    
+                                    <div class="breadcrumb-wrap">
+                              
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Marketing Solutions</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- breadcrumb-area-end -->
+            <!-- services-three-area -->
+            <section id="services" class="services-area services-bg  p-relative fix pt-120 pb-90">  
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon1.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon1-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Paid search marketing</a></h5>
+                                <p>Craft campaigns - built just for your business - to ensure real and quantifiable ROI.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon2.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon2-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Seo Service</a></h5>
+                               <p>Maintain your best spot on the search results page, so you can find new customers and re-engage loyal ones.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon3.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon3-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Email marketing</a></h5>
+                               <p>When it comes to reaching your target audience, you can't get much closer than direct to their inboxes</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon4.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon4-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Conversion rate optimization</a></h5>
+                               <p>Craft campaigns - built just for your business - to ensure real and quantifiable ROI.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon9.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon9-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Brand Enhancement Solution</a></h5>
+                                <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon10.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon10-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">SEO Analysis</a></h5>
+                               <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="services-icon">
+                               <img src="/static/assets/img/icon/sr-icon11.png" alt="icon"/>
+                                <img src="/static/assets/img/icon/sr-icon11-hover.png" alt="img" class="hover">
+                            </div>
+                            <div class="second-services-content">
+                                <h5><a href="single-{% url 'service' %}">Events Solutions</a></h5>
+                               <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
+                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                            </div>
+                               <div class="sr-h-bg">
+                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
+                            </div>
+                            </div>
+                        </div>
+                       
+                   
+                    </div>
+                </div>
+            </section>
+           <!-- services-three-area -->
+            <!-- brand-area -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="breadcrumb-wrap text-center">
+                            <div class="breadcrumb-title">
+                                <h2>Our Clients</h2>    
+                                <div class="breadcrumb-wrap">
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+                <div class="brand-area pb-120 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                    <div class="container">
+                        <div class="row brand-active">
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                    <img width="450" src="/static/assets/img/brand/betika.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="250" src="/static/assets/img/brand/South-African-Airlines.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="250" src="/static/assets/img/brand/wines of SA.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                      <img width="200" src="/static/assets/img/brand/ogilvy.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="150" src="/static/assets/img/brand/winenjiru.jpeg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="300" src="/static/assets/img/brand/tyremasters.jpeg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="150" src="/static/assets/img/brand/human capital synergies.jpeg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="150" src="/static/assets/img/brand/BNI.jpeg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-2">
+                                <div class="single-brand">
+                                     <img width="200" src="/static/assets/img/brand/ashok leyland.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- brand-area-end --> 
+          
+                <!-- what-we-do-area -->
+            <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                <img src="/static/assets/img/features/Brandactivation.png" alt="img">
+                                
+                            </div>
+                          
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                <div class="about-title second-title pb-25">  
+                                    <h5><span class="line"> <img width="100" src="/static/assets/img/logo/backgroundless.png" alt="circle_right"></span> What do We Do</h5>
+                                    <h2>Inbar Activation</h2>                                   
+                                </div>
+                                    <p>Transform your bar into an unforgettable experience with our custom bar activation strategies. We specialize in creating immersive environments that resonate with your target audience, driving engagement and loyalty. From themed events to interactive installations, our team ensures your brand stands out in the bustling nightlife scene</p>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                    <img src="/static/assets/img/features/experientialmarketing.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                    <div class="about-title second-title pb-25">  
+                                       
+                                        <h2>Experiential Marketing</h2>                                   
+                                    </div>
+                                        <p>Dive into the world of experiential marketing with us, where every campaign is a journey of senses. We design extraordinary experiences that forge deep connections between brands and consumers. Whether it's a pop-up shop, an interactive exhibit, or a virtual reality adventure, our creative solutions make your brand the star of the show.</p>
+                                       
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                        <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                        <img src="/static/assets/img/features/events.png" alt="img">
+                                        
+                                    </div>
+                                  
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                        <div class="about-title second-title pb-25">  
+                                           
+                                            <h2>Events Solutions</h2>                                   
+                                        </div>
+                                            <p>From intimate gatherings to grand galas, our event solutions are tailored to create lasting impressions. We handle everything - venue selection, thematic design, technology integration, and more, ensuring your event is seamless and impactful. Let us turn your vision into a spectacular reality that speaks volumes about your brand.</p>
+                                           
+                                           
+          
+                                        </div>
+                                        
+                                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                            <div class="container">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                            <img src="/static/assets/img/features/corporate.png" alt="img">
+                                            
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                            <div class="about-title second-title pb-25">  
+                                               
+                                                <h2>Corporate Launches</h2>                                   
+                                            </div>
+                                                <p>Make your corporate launch the talk of the industry with our strategic and creative approach. We specialize in launching products and services with flair, ensuring maximum visibility and engagement. From press events to digital campaigns, we provide a comprehensive package that propels your brand into the spotlight.</p>
+                                               
+                                               
+              
+                                            </div>
+                                            
+                                               
+                                        </div>
+                                    </div>
+            
+                                    
+            
+                                </div>
+                            </div>
+                            
+                            <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                                <img src="/static/assets/img/features/brandenhancement.png" alt="img">
+                                                
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                                <div class="about-title second-title pb-25">  
+                                                   
+                                                    <h2>Brand Enhancement Solutions</h2>                                   
+                                                </div>
+                                                    <p>Reinvigorate your brand with our bespoke brand enhancement solutions. Our team works closely with you to identify and amplify your brand's unique voice and values. Through innovative marketing techniques and creative storytelling, we ensure your brand not only stands out but also resonates deeply with your audience.</p>
+                                                   
+                                                   
+                  
+                                                </div>
+                                                
+                                                   
+                                            </div>
+                                        </div>
+                
+                                        
+                
+                                    </div>
+                                </div>  
+
+                <section id="about" class="about-area about-p pt-120 pb-120 p-relative fix">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                    <img src="/static/assets/img/features/interiorbranding.png" alt="img">
+                                    
+                                </div>
+                              
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="about-content s-about-content pl-30 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                                    <div class="about-title second-title pb-25">  
+                                       
+                                        <h2>Interior Branding</h2>                                   
+                                    </div>
+                                        <p>Interior branding is more than decor; it's about creating a space that embodies your brand's ethos. We specialize in designing interiors that reflect your brand's identity and values, creating an immersive experience for everyone who walks through your doors. From office spaces to retail environments, our designs make your brand tangible.</p>
+                                      
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <!-- what-we-do-area-end -->
+          
+           
+        </main>
+        <!-- main-area-end -->
+           <!-- footer -->
+        <footer class="footer-bg footer-p">
+            <div class="footer-top pt-120 pb-90  p-relative" style="background-color: #161616;background-image:url(/static/assets/img/bg/footer_bg.png); background-repeat: no-repeat; background-size: cover;">               
+                <div class="container">
+                    <div class="row justify-content-between">
+                        
+                          <div class="col-xl-5 col-lg-5 col-sm-6">
+                            <div class="footer-widget mb-30">
+                                <div class="f-widget-title mb-100">
+                                   <img src="/static/assets/img/logo/no-bg-logo.png" alt="img">
+                                </div>
+                                 <div class="footer-subricbe p-relative" data-animation="fadeInDown" data-delay=".4s" >
+                                     <h6>Get Contact</h6>
+                                    <form action="https://htmldemo.zcubethemes.com/meika/news-""""" method="post" class="contact-form ">
+                                    <button class="btn"><img src="img/bg/sbtn-icon.png" alt="img"></button>
+                                     <input type="text" id="email2" name="email2"  class="header-input" placeholder="Info.@stridingventures.com" required>
+                                    
+                                    </form>
+                                </div>
+                                <div class="info">
+                                    <ul>
+                                        <li><span class="red">Phone:</span> +254 700 892 927</li>
+                                        <li><span class="red">Location:</span> Kingdom Business Network, Kabarnet Road, Off Ngong Rd.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-xl-2 col-lg-2 col-sm-6">
+                            <div class="footer-widget mb-30">
+                                <div class="f-widget-title">
+                                    <h2>Follow Us</h2>
+                                </div>
+                                <div class="footer-link">
+                                    <ul>                                        
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">Instagram</a></li>
+                                        <li><a href="#">LinkedIn</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-sm-6">
+                            <div class="footer-widget mb-30">
+                                <div class="f-widget-title">
+                                    <h2>Top Links</h2>
+                                </div>
+                                <div class="footer-link">
+                                    <ul>
+                                        <li><a href="faq.html">About</a></li>
+                                        <li><a href="#">Marketing Solutions</a></li>
+                                        <li><a href="#">Terms of service</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+             
+            </div>
+            
+            <div class="copyright-wrap">              
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">                         
+                              Copyright © 2023 <a href="#">Striding Ventures Marketing</a>. All rights reserved.          
+                        </div>
+                          <div class="col-lg-6 text-right">      
+                               <img width="100" src="/static/assets/img/logo/backgroundless.png" alt="img">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-end -->
+		<!-- JS here -->
+        <script src="/static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="/static/assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/static/assets/js/popper.min.js"></script>
+        <script src="/static/assets/js/bootstrap.min.js"></script>
+        <script src="/static/assets/js/slick.min.js"></script>
+        <script src="/static/assets/js/ajax-form.js"></script>
+        <script src="/static/assets/js/paroller.js"></script>
+        <script src="/static/assets/js/wow.min.js"></script>
+        <script src="/static/assets/js/js_isotope.pkgd.min.js"></script>
+        <script src="/static/assets/js/imagesloaded.min.js"></script>
+        <script src="/static/assets/js/parallax.min.js"></script>
+        <script src="/static/assets/js/jquery.waypoints.min.js"></script>
+        <script src="/static/assets/js/jquery.counterup.min.js"></script>
+        <script src="/static/assets/js/jquery.scrollUp.min.js"></script>
+        <script src="/static/assets/js/jquery.meanmenu.min.js"></script>
+        <script src="/static/assets/js/parallax-scroll.js"></script>
+        <script src="/static/assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="/static/assets/js/element-in-view.js"></script>
+        <script src="/static/assets/js/main.js"></script>
+    </body>
+
+
+</html>
