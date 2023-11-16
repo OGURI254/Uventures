@@ -5,10 +5,10 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Striding Ventures Limited</title>
+        <title>Striding Ventures Marketing</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/logo/backgroundless.png">
+		<link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/logo/Bgupdated.png">
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -33,7 +33,7 @@
                         <div class="row align-items-center">
                              <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/no-bg-logo.png" alt="logo"></a>
+                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/Bgupdated.png" alt="logo"></a>
                                 </div>
                             </div>
                            <div class="col-xl-4 col-lg-4 col-md-6">
@@ -58,7 +58,7 @@
                                         <li>
                                           <div class="call-box">                                            
                                              <div class="text">
-                                             Phone: +254 700 892 927<br> Email: Info.@stridingventures.com             
+                                             Phone: +254 700 892 927<br> Email: Info@stridingventures.com             
                                              </div>
                                           </div>
                                        </li>
@@ -84,7 +84,7 @@
        <!-- offcanvas-area -->
           <div class="offcanvas-menu">
              <span class="menu-close"><i class="fas fa-times"></i></span>
-             <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
+             <form role="search" method="get" id="searchform"   class="searchform" action="#">
                 <input type="text" name="s" id="search" placeholder="Search"/>
                 <button><i class="fa fa-search"></i></button>
              </form>
@@ -92,7 +92,8 @@
                 <ul  class="menu">
                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'index' %}">Home</a></li>
                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'about' %}">About Us</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'contact' %}">Contact</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'service' %}">Marketing Solutions</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'contact' %}">Contact Us</a></li>
                 </ul>
              </div>
              <div id="cssmenu2" class="menu-one-page-menu-container">
@@ -120,7 +121,7 @@
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -139,7 +140,7 @@
                     
                     <div class="row">
                         <div class="col-lg-12">
-                            <img src="/static/assets/img/bg/map.png" alt="logo">
+                            <img width="2000" src="/static/assets/img/bg/map2.png" alt="logo">
                         </div>
                     </div>
                 </div>
@@ -160,52 +161,53 @@
                                
                             </div>
                              
-                            <form method="post" action="{% url 'contact' %}" class="contact-form mt-30">
-                                {% csrf_token %}
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="contact-field p-relative c-name mb-30">
-                                            <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="contact-field p-relative c-email mb-20">
-                                            <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="contact-field p-relative c-subject mb-30">
-                                            <input type="text" id="email" name="email" placeholder="Email" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="contact-field p-relative c-subject mb-30">
-                                            <input type="text" id="phone_number" name="phone_number" placeholder="Phone No." required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="contact-field p-relative c-subject mb-30">
-                                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="contact-field p-relative c-message mb-30">
-                                            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Write comments" required></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <p>* Call us 24/7 or fill out the form below to receive a free.</p>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="slider-btn text-center">
-                                            <button class="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s">Send Message <i
-                                                    class="fa-sharp fa-light fa-arrow-up"></i></button>
-                                        </div>
-                                    </div>
+						<form action="{% url 'contact' %}" method="post" class="contact-form mt-30">
+							{% csrf_token %}
+                            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="contact-field p-relative c-name mb-30">                                    
+                                    <input type="text" id="firstn" name="first_name" placeholder="First Name" required>
+                                </div>                               
+                            </div>
+							<div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-email mb-20">                                    
+                                    <input type="text" id="lastn" name="last_name" placeholder="Last Name" required>
+                                </div>                                
+                            </div>
+							<div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-subject mb-30">                                   
+                                    <input type="text" id="email" name="email" placeholder="Eamil" required>
                                 </div>
-                            </form>
+                            </div>		
+                            <div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-subject mb-30">                                   
+                                    <input type="text" id="phone" name="phone" placeholder="Phone No." required>
+                                </div>
+                            </div>	
+                            <div class="col-lg-12">                               
+                                <div class="contact-field p-relative c-subject mb-30">                                   
+                                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                            </div>	
+                             
+                            <div class="col-lg-12">
+                                <div class="contact-field p-relative c-message mb-30">                                  
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
+                                </div>
+                                                     
+                            </div>
+                            <div class="col-lg-12">
+                                <p> * Call us 24/7  or send us a message</p>
+                            </div>
+                            <div class="col-lg-12">
+                               <div class="slider-btn  text-center">                                          
+                                    <button class="btn ss-btn active popupbtn" data-animation="fadeInRight" data-delay=".8s">Send Message <i class="fa-sharp fa-light fa-arrow-up"></i></button>				
+                                </div>        
+                            </div>
+                            </div>
+                        
+                    </form>
                             
-            
                             </div>
                         
 						</div>
@@ -241,7 +243,7 @@
                                         </div>
                                         <div class="text">
                                              <p>Contact Phone</p>
-                                            <h5>info.@stridingventures.com</h5>                                           
+                                            <h5>info@stridingventures.com</h5>                                           
                                         </div>
                                     </div> 
                                  </li>
@@ -289,52 +291,52 @@
                     
                 </div>
             </div>
-                <div class="brand-area wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                <div class="brand-area wow fadeInDown animated" data-animation="fadeInDown" data-delay=".2s">
                     <div class="container">
                         <div class="row brand-active">
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                    <img width="450" src="/static/assets/img/brand/betika.png" alt="img">
+                                    <img src="/static/assets/img/brand/betika.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="250" src="/static/assets/img/brand/South-African-Airlines.png" alt="img">
+                                     <img src="/static/assets/img/brand/South-African-Airlines.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="250" src="/static/assets/img/brand/wines of SA.png" alt="img">
+                                     <img src="/static/assets/img/brand/wines of SA.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                      <img width="200" src="/static/assets/img/brand/ogilvy.png" alt="img">
+                                      <img src="/static/assets/img/brand/ogilvy.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/winenjiru.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/winenjiru.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="300" src="/static/assets/img/brand/tyremasters.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/tyremasters.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/human capital synergies.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/human capital synergies.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/BNI.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/BNI.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="200" src="/static/assets/img/brand/ashok leyland.png" alt="img">
+                                     <img src="/static/assets/img/brand/ashok leyland.png" alt="img">
                                 </div>
                             </div>
                         </div>
@@ -353,16 +355,15 @@
                           <div class="col-xl-5 col-lg-5 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title mb-100">
-                                   <img width="200" src="/static/assets/img/logo/no-bg-logo.png" alt="img">
+                                   <img width="200" src="/static/assets/img/logo/Bgupdated.png" alt="img">
                                 </div>
                                  <div class="footer-subricbe p-relative" data-animation="fadeInDown" data-delay=".4s" >
                                      <h6>Get Contact</h6>
-                                     <form method="post" action="{% url 'service' %}" class="contact-form">
-                                        {% csrf_token %}
-                                        <button class="btn"><img src="/static/assets/img/bg/sbtn-icon.png" alt="img"></button>
-                                        <input type="text" id="email2" name="email" class="header-input" placeholder="info.@stridingventures.com" required>
-                                    </form>
+                                    <form action="#" method="post" class="contact-form ">
+                                    <button class="btn"><img src="/static/assets/img/bg/sbtn-icon.png" alt="img"></button>
+                                     <input type="text" id="email2" name="email2"  class="header-input" placeholder="Info@stridingventures.com" required>
                                     
+                                    </form>
                                 </div>
                                 <div class="info">
                                     <ul>
@@ -394,12 +395,9 @@
                                 </div>
                                 <div class="footer-link">
                                     <ul>
-                                        <li><a href="faq.html">About</a></li>
-                                        <li><a href="#">Marketing Solutions</a></li>
-                                        <li><a href="#">Terms of service</a></li>
-                                        <li><a href="#">Cookie Policy</a></li>
-                                        <li><a href="#"> Contact Us</a></li>
-                                        <li><a href="#">Team Member</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        <li><a href="{% url 'service' %}">Marketing Solutions</a></li>
+                                        <li><a href="{% url 'contact' %}"> Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -415,18 +413,27 @@
                         <div class="col-lg-6">                         
                               Copyright © 2023 <a href="#">Striding Ventures Marketing</a>. All rights reserved.          
                         </div>
-                          <div class="col-lg-6 text-right">      
-                               <img src="/static/assets/img/bg/cp-logo.png" alt="img">
+                        <div class="col-lg-6 text-right">      
+                            <img width="100" src="/static/assets/img/logo/backgroundless.png" alt="img">
+                     </div>
                         </div>
                         
                     </div>
                 </div>
             </div>
         </footer>
+
+        <div class=”bg-modal”>
+            <div class=”modal-content”>
+            
+            </div>
+        </div>
+        
         <!-- footer-end -->
 		<!-- JS here -->
         <script src="/static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="/static/assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="../static/assets/js/send-form.js"></script>
         <script src="/static/assets/js/popper.min.js"></script>
         <script src="/static/assets/js/bootstrap.min.js"></script>
         <script src="/static/assets/js/slick.min.js"></script>

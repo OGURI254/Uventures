@@ -29,7 +29,7 @@
   --screen-black:#1e1e1e;
   --screen-white:#ca5b0b;
 }
-/* @import url('./root.css') */
+/*  */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&amp;family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
 /* 1. Theme default css */
  body {
@@ -43,24 +43,6 @@
   position: relative;
   background: url('../img/slider/line-bg.png') no-repeat;
      
-}
-.confetti {
-  position: absolute;
-  background-color: #e74c3c;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  transform-origin: 50% 50%;
-  animation: confettiFall linear infinite;
-}
-
-@keyframes confettiFall {
-  0% {
-    transform: translateY(0) rotateZ(0deg);
-  }
-  100% {
-    transform: translateY(100vh) rotateZ(720deg);
-  }
 }
 a, .btn, button, span, p, i, input, select, textarea, li, img, svg path, ::after, ::before, .transition-3, h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-out 0s;
@@ -149,7 +131,7 @@ border-bottom: 1px solid #ffffff1a;
     color: #fff;
 }
 .dark .main-menu ul li a:hover,.dark .header-social a:hover{
-    color: #dd630c;
+    color: #68b3ff;
 }
 .dark .header-three .btn.ss-btn::before {
   border-color: #000;
@@ -2916,6 +2898,10 @@ margin-bottom: 30px;
 border-radius: 0;
   
 }
+.second-services-text{
+  display: grid;
+  gap: 2px;
+}
 .services-two .s-single-services{
     float: left;
 	width: 100%;
@@ -4356,7 +4342,12 @@ margin-bottom: 20px;
     color: #fff;
 }
 .single-brand {text-align: center;}
-.single-brand img {display: inline-block;}
+.single-brand img {
+  display: inline-block;
+  width:150px;
+}
+
+
 .brand-area2{
     margin-top: -70px;
     position: relative;
@@ -12482,6 +12473,17 @@ width: 100%;
 .footer-bg .wpding .widget {
     margin-bottom: 30px;
 }
+.bg-modal{
+  width: 100vh;
+ height:100vh;
+ background-color: rgba(0,0,0,0.5); /* make it half transparent */
+ position: absolute;
+ top:0px;
+ z-index: 1;
+ display: none;  /* It will remain invisible until you open */
+ justify-content: center; /*center horizontally*/ 
+ align-items: center ; /* center vertically */
+  }
 .wpding .footer-widget .widget_categories ul li,.wpding .footer-widget .widget_archive ul li
 {
 	padding-bottom: 5px;

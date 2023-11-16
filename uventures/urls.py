@@ -30,7 +30,7 @@ urlpatterns = [
     path('service/', views.service, name='service'),
     path('blog/', views.blog, name='blog'),
     path('team/', views.team, name='team'),
-    path('contact/success', views.success, name='suucess'),
+    path('contact/success', views.success, name='success'),
     path('singleteam/', views.singleteam, name='singleteam'),
    
 

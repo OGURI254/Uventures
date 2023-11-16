@@ -5,7 +5,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Striding Ventures Limited </title>
+        <title>Striding Ventures Marketing </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/logo/backgroundless.png">
@@ -33,7 +33,7 @@
                         <div class="row align-items-center">
                              <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/no-bg-logo.png" alt="logo"></a>
+                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/Bgupdated.png" alt="logo"></a>
                                 </div>
                             </div>
                            <div class="col-xl-4 col-lg-4 col-md-6">
@@ -84,7 +84,7 @@
        <!-- offcanvas-area -->
           <div class="offcanvas-menu">
              <span class="menu-close"><i class="fas fa-times"></i></span>
-             <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
+             <form role="search" method="get" id="searchform"   class="searchform" action="#">
                 <input type="text" name="s" id="search" placeholder="Search"/>
                 <button><i class="fa fa-search"></i></button>
              </form>
@@ -93,7 +93,7 @@
                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'index' %}">Home</a></li>
                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'about' %}">About Us</a></li>
                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'service' %}">Marketing Solutions</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'contact' %}">Contact</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{% url 'contact' %}">Contact Us</a></li>
                 </ul>
              </div>
              <div id="cssmenu2" class="menu-one-page-menu-container">
@@ -144,9 +144,11 @@
                                 <img src="/static/assets/img/icon/sr-icon1-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Paid search marketing</a></h5>
-                                <p>Craft campaigns - built just for your business - to ensure real and quantifiable ROI.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Paid search marketing</a></h5>
+                                <p>Enhance your business visibility with our expert Paid Search Marketing services, tailored to put your brand at the forefront of search engine results.</p>
+                                <p>Our strategic approach to keyword selection and bid management ensures maximum ROI, driving relevant traffic to your website.
+                                     </p>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -160,9 +162,10 @@
                                 <img src="/static/assets/img/icon/sr-icon2-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Seo Service</a></h5>
-                               <p>Maintain your best spot on the search results page, so you can find new customers and re-engage loyal ones.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Seo Service</a></h5>
+                               <p>Our SEO services are designed to increase your website's visibility and organic search ranking, driving more traffic and leads to your business. </p>
+                                <p>We employ a comprehensive approach that includes keyword research, on-page optimization, high-quality content creation, and authoritative link building.</p>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -176,9 +179,10 @@
                                 <img src="/static/assets/img/icon/sr-icon3-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Email marketing</a></h5>
-                               <p>When it comes to reaching your target audience, you can't get much closer than direct to their inboxes</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Email marketing</a></h5>
+                               <p>Leverage our specialized Email Marketing services to create compelling, personalized campaigns that resonate with your audience.</p>
+                                <p>We focus on delivering targeted content that drives engagement, enhances customer loyalty, and boosts conversion rates.</p>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -192,9 +196,10 @@
                                 <img src="/static/assets/img/icon/sr-icon4-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Conversion rate optimization</a></h5>
-                               <p>Craft campaigns - built just for your business - to ensure real and quantifiable ROI.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Conversion rate optimization</a></h5>
+                               <p>Our Conversion Rate Optimization (CRO) services are designed to turn your website traffic into valuable conversions, enhancing the effectiveness of your online presence. </p>
+                                <p>By employing a data-driven approach, we analyze user behavior, identify barriers to conversion, and implement strategic changes to improve user experience and engagement.</p>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -208,25 +213,10 @@
                                 <img src="/static/assets/img/icon/sr-icon9-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Brand Enhancement Solution</a></h5>
-                                <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
-                            </div>
-                               <div class="sr-h-bg">
-                               <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                           <div class="s-single-services mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                            <div class="services-icon">
-                               <img src="/static/assets/img/icon/sr-icon10.png" alt="icon"/>
-                                <img src="/static/assets/img/icon/sr-icon10-hover.png" alt="img" class="hover">
-                            </div>
-                            <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">SEO Analysis</a></h5>
-                               <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Brand Enhancement Solution</a></h5>
+                                <p>Our Brand Enhancement Solutions are tailored to elevate your brand's identity and market presence.</p>
+                                <p>We specialize in crafting unique, memorable branding strategies that resonate with your target audience, distinguishing you from competitors. </p>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -240,9 +230,13 @@
                                 <img src="/static/assets/img/icon/sr-icon11-hover.png" alt="img" class="hover">
                             </div>
                             <div class="second-services-content">
-                                <h5><a href="single-{% url 'service' %}">Events Solutions</a></h5>
-                               <p>Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.</p>
-                                <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a>
+                                <h5><a href="{% url 'service' %}">Events Solutions</a></h5>
+                                <div class="second-services-text">
+
+                                    <p>Our comprehensive Event Solutions service offers end-to-end management for all your event needs, from conceptualization to execution.</p>
+                                    <p> We specialize in creating memorable, impactful experiences that effectively communicate your brand's message and values.</p>
+                                </div>
+                                <!-- <a class="btn" href="single-{% url 'service' %}">Read More <i class="fa-sharp fa-light fa-arrow-up"></i></a> -->
                             </div>
                                <div class="sr-h-bg">
                                <img src="/static/assets/img/bg/sr-h-bg.png" alt="icon"/>
@@ -270,52 +264,52 @@
                     
                 </div>
             </div>
-                <div class="brand-area pb-120 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                <div class="brand-area pb-120 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".2s">
                     <div class="container">
                         <div class="row brand-active">
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                    <img width="450" src="/static/assets/img/brand/betika.png" alt="img">
+                                    <img src="/static/assets/img/brand/betika.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="250" src="/static/assets/img/brand/South-African-Airlines.png" alt="img">
+                                     <img src="/static/assets/img/brand/South-African-Airlines.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="250" src="/static/assets/img/brand/wines of SA.png" alt="img">
+                                     <img src="/static/assets/img/brand/wines of SA.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                      <img width="200" src="/static/assets/img/brand/ogilvy.png" alt="img">
+                                      <img src="/static/assets/img/brand/ogilvy.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/winenjiru.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/winenjiru.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="300" src="/static/assets/img/brand/tyremasters.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/tyremasters.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/human capital synergies.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/human capital synergies.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="150" src="/static/assets/img/brand/BNI.jpeg" alt="img">
+                                     <img src="/static/assets/img/brand/BNI.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-2">
                                 <div class="single-brand">
-                                     <img width="200" src="/static/assets/img/brand/ashok leyland.png" alt="img">
+                                     <img src="/static/assets/img/brand/ashok leyland.png" alt="img">
                                 </div>
                             </div>
                         </div>
@@ -498,13 +492,13 @@
                           <div class="col-xl-5 col-lg-5 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title mb-100">
-                                   <img src="/static/assets/img/logo/no-bg-logo.png" alt="img">
+                                   <img src="/static/assets/img/logo/Bgupdated.png" alt="img">
                                 </div>
                                  <div class="footer-subricbe p-relative" data-animation="fadeInDown" data-delay=".4s" >
                                      <h6>Get Contact</h6>
-                                    <form action="https://htmldemo.zcubethemes.com/meika/news-""""" method="post" class="contact-form ">
-                                    <button class="btn"><img src="img/bg/sbtn-icon.png" alt="img"></button>
-                                     <input type="text" id="email2" name="email2"  class="header-input" placeholder="Info.@stridingventures.com" required>
+                                    <form action="#" method="post" class="contact-form ">
+                                    <button class="btn"><img src="/static/assets/img/bg/sbtn-icon.png" alt="img"></button>
+                                     <input type="text" id="email2" name="email2"  class="header-input" placeholder="info@stridingventures.com" required>
                                     
                                     </form>
                                 </div>
@@ -538,10 +532,9 @@
                                 </div>
                                 <div class="footer-link">
                                     <ul>
-                                        <li><a href="faq.html">About</a></li>
-                                        <li><a href="#">Marketing Solutions</a></li>
-                                        <li><a href="#">Terms of service</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        <li><a href="{% url 'service' %}">Marketing Solutions</a></li>
+                                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
 
                                     </ul>
                                 </div>

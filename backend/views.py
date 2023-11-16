@@ -30,9 +30,9 @@ def contact(request):
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
         email = request.POST.get('email')
-        phone_number = request.POST.get('phone_number')
+        phone_number = request.POST.get('phone')
         subject = request.POST.get('subject')
-        comments = request.POST.get('comments')
+        comments = request.POST.get('message')
 
         # Add your logic here to process the data and save it to the Contact model
         try:
