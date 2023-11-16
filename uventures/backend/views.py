@@ -8,10 +8,7 @@ def about(request):
 def works(request):
     return render(request, 'projects.html')
 def contact(request):
-    if request.method == "POST":
-        firstName = request.POST.get("firstn")
-    else:
-        return render(request, 'contact.html')
+    return render(request, 'contact.html')
 def service(request):
     return render(request, 'service.html')
 def blog(request):

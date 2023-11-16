@@ -4342,7 +4342,12 @@ margin-bottom: 20px;
     color: #fff;
 }
 .single-brand {text-align: center;}
-.single-brand img {display: inline-block;}
+.single-brand img {
+  display: inline-block;
+  width:150px;
+}
+
+
 .brand-area2{
     margin-top: -70px;
     position: relative;
@@ -12468,6 +12473,17 @@ width: 100%;
 .footer-bg .wpding .widget {
     margin-bottom: 30px;
 }
+.bg-modal{
+  width: 100vh;
+ height:100vh;
+ background-color: rgba(0,0,0,0.5); /* make it half transparent */
+ position: absolute;
+ top:0px;
+ z-index: 1;
+ display: none;  /* It will remain invisible until you open */
+ justify-content: center; /*center horizontally*/ 
+ align-items: center ; /* center vertically */
+  }
 .wpding .footer-widget .widget_categories ul li,.wpding .footer-widget .widget_archive ul li
 {
 	padding-bottom: 5px;

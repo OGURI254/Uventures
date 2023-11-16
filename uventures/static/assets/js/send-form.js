@@ -1,19 +1,31 @@
+const popupbtn = document.querySelector('.popupbtn');
 
-$(function(){
-    const form  = $('#contact-form')
+const popup = document.querySelector('.popup-wrapper');
 
-    $(form).submit(function(e) {
-        e.preventDefault()
-        const firstName = $('#firstn')
-        const lastName = $('#lastn')
-        const email = $('#email')
-        const phone = $('#phone')
-        const subject = $('#subject')
-        const message = $('#message')
+const popupclose = document.querySelector('.popup-close');
 
-        Mail::RTCRtpSender()
+// popup
 
-    })
-})
-// firstn,lastn,email,phone,subject,message
+popupbtn.addEventListener('click',() =>{
 
+    popup.style.display = "block";
+
+    console.log("opening modal");
+
+});
+
+popupclose.addEventListener('click', () => {
+
+    popup.style.display = 'none';
+
+});
+
+popup.addEventListener('click', (e) => {
+
+    if(e.target.className === 'popup-wrapper'){
+
+      popup.style.display = 'none';
+
+    }
+
+});
