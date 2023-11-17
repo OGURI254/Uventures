@@ -27,59 +27,63 @@
      <body class="dark">
         <!-- header -->
         <header class="header-area header">  
-			  <div id="header-sticky" class="menu-area pl-100 pr-100">
-                <div class="container-fluid">
-                    <div class="second-menu">
-                        <div class="row align-items-center">
-                             <div class="col-xl-2 col-lg-2">
-                                <div class="logo">
-                                    <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/Bgupdated.png" alt="logo"></a>
-                                </div>
-                            </div>
-                           <div class="col-xl-4 col-lg-4 col-md-6">
-                              
-                                <div class="main-menu">
-                                    <nav id="mobile-menu">
-                                          <ul>
-                                            <li class="has-sub">
-                                                <a href="{% url 'index' %}">Home</a>
-                                            </li>
-                                            <li><a href="{% url 'about' %}">About Us</a></li>   
-                                             <li><a href="{% url 'service' %}">Marketing Solutions</a></li>
-                                                 <li><a href="{% url 'contact' %}">Contact</a></li>                                               
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>   
-                             <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block text-right text-xl-right">
-                                 <div class="header-cta">
-                                    <ul>
-                                       
-                                        <li>
-                                          <div class="call-box">                                            
-                                             <div class="text">
-                                             Phone: +254 700 892 927<br> Email: Info@stridingventures.com             
-                                             </div>
-                                          </div>
-                                       </li>
-                                        <li>
-                                            <div class="call-box">                          
-                                            <a href="#" class="menu-tigger"><img src="/static/assets/img/bg/toggle-menu.png" alt="logo"></a>
-                                            </div>
-                                        </li>
-                                      
-                                    </ul>
-                                 </div>                              
-                            </div>
+            <div id="header-sticky" class="menu-area pl-100 pr-100">
+              <div class="container-fluid">
+                  <div class="second-menu">
+                      <div class="row align-items-center">
+                           <div class="col-xl-2 col-lg-2">
+                              <div class="logo">
+                                  <a href="{% url 'index' %}"><img width="100" src="/static/assets/img/logo/Bgupdated.png" alt="logo"></a>
+                              </div>
+                          </div>
+                         <div class="col-xl-4 col-lg-4 col-md-6">
                             
-                                <div class="col-12">
-                                    <div class="mobile-menu"></div>
-                                </div>
-                        </div>                   
-                        </div>                   
-                </div>
-            </div>
-        </header>
+                              <div class="main-menu">
+                                  <nav id="mobile-menu">
+                                        <ul>
+                                          <li class="has-sub">
+                                              <a href="{% url 'index' %}">Home</a>
+                                             
+                                          </li>
+                                          <li><a href="{% url 'about' %}">About Us</a></li>       
+                                           <li class="has-sub"><a href="{% url 'service' %}">Marketing Solutions</a>
+                                            <ul>                                                         
+                                                <li><a href="{% url 'projects' %}">Projects</a></li>                                               
+                                              </ul>    
+                                        </li>
+                                          <li><a href="{% url 'contact' %}">Contact</a></li>                                               
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>   
+                           <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block text-right text-xl-right">
+                               <div class="header-cta">
+                                  <ul>
+                                      <li>
+                                        <div class="call-box">                                            
+                                           <div class="text">
+                                           Phone: +254 700 892 927<br> Email: info@stridingventures.com             
+                                           </div>
+                                        </div>
+                                     </li>
+                                      <li>
+                                          <div class="call-box">                          
+                                          <a href="#" class="menu-tigger"><img src="/static/assets/img/bg/toggle-menu.png" alt="logo"></a>
+                                          </div>
+                                      </li>
+                                    
+                                  </ul>
+                               </div>                              
+                          </div>
+                          
+                              <div class="col-12">
+                                  <div class="mobile-menu"></div>
+                              </div>
+                      </div>                   
+                      </div>                   
+              </div>
+          </div>
+      </header>
         <!-- header-end -->
        <!-- offcanvas-area -->
           <div class="offcanvas-menu">

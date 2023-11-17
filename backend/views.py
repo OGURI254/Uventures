@@ -43,7 +43,7 @@ def contact(request):
                 phone_number=phone_number,
                 subject=subject,
                 comments=comments
-            )
+            ).save()
             messages.success(request, 'Details successfully processed and saved.')
             # Add any other logic or redirect as needed
             return redirect('success')  # Replace with the actual success page URL

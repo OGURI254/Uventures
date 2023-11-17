@@ -7367,14 +7367,14 @@ opacity: 0;
 .main-menu .has-sub li {
 margin-left: 0 !important;
 float: left;
-border-bottom: 1px solid #ddd;
+border-bottom: 1px solid #002c47;
 width: 100%;
 text-align: left;
 
 }
 
 .main-menu .has-sub a:hover{
-	color:#df2919;
+	color:#002c47;
 }
 
 .main-menu .has-sub:hover > ul { visibility: visible; margin-top: 0px; opacity: 1;}
